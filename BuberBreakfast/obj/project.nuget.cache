@@ -1,10 +1,15 @@
 {
   "version": 2,
-  "dgSpecHash": "iQUq6ty8OhtOFJ1F9gUOx+h7HW7d3jTJ9xVjWqEgsCwB3JI6ZHnvMzqHxdoZWfZHxLYTVlGEEKlXz5S65ZErVQ==",
+  "dgSpecHash": "J02EE4+1jpDNaHswsUWiM+p9h7IA7xPTB+LjxsbWsVpwuS/1zfRFRPerkx6XuoFaa3f2fpoqSrwizkIxCym2ew==",
   "success": true,
-  "projectFilePath": "C:\\Dev\\DotNetCore\\BuberBreakfast\\BuberBreakfast\\BuberBreakfast.csproj",
+  "projectFilePath": "c:\\Dev\\DotNetCore\\BuberBreakfast\\BuberBreakfast\\BuberBreakfast.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\jens_\\.nuget\\packages\\erroror\\1.2.1\\erroror.1.2.1.nupkg.sha512"
+    "C:\\Users\\jens_\\.nuget\\packages\\erroror\\1.2.1\\erroror.1.2.1.nupkg.sha512",
+    "C:\\Users\\jens_\\.nuget\\packages\\fluentvalidation\\11.4.0\\fluentvalidation.11.4.0.nupkg.sha512",
+    "C:\\Users\\jens_\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.12\\microsoft.netcore.app.ref.6.0.12.nupkg.sha512",
+    "C:\\Users\\jens_\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.12\\microsoft.windowsdesktop.app.ref.6.0.12.nupkg.sha512",
+    "C:\\Users\\jens_\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.12\\microsoft.aspnetcore.app.ref.6.0.12.nupkg.sha512",
+    "C:\\Users\\jens_\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\6.0.12\\microsoft.netcore.app.host.win-x64.6.0.12.nupkg.sha512"
   ],
   "logs": []
 }

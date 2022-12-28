@@ -5,10 +5,27 @@
       "ErrorOr/1.2.1": {
         "type": "package",
         "compile": {
-          "lib/net6.0/ErrorOr.dll": {}
+          "lib/net6.0/ErrorOr.dll": {
+            "related": ".xml"
+          }
         },
         "runtime": {
-          "lib/net6.0/ErrorOr.dll": {}
+          "lib/net6.0/ErrorOr.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "FluentValidation/11.4.0": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/FluentValidation.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/FluentValidation.dll": {
+            "related": ".xml"
+          }
         }
       },
       "BuberBreakfast.Contracts/1.0.0": {
@@ -40,6 +57,29 @@
         "lib/netstandard2.0/ErrorOr.xml"
       ]
     },
+    "FluentValidation/11.4.0": {
+      "sha512": "WZJyrNf4suiaI6avVG32W9kmBLC3+V5rDTcLeRJjeU4tDmTyDIOz1459DzCKppXs34YpZg9rCUzDY3M4XxG7Ug==",
+      "type": "package",
+      "path": "fluentvalidation/11.4.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "README.md",
+        "fluent-validation-icon.png",
+        "fluentvalidation.11.4.0.nupkg.sha512",
+        "fluentvalidation.nuspec",
+        "lib/net5.0/FluentValidation.dll",
+        "lib/net5.0/FluentValidation.xml",
+        "lib/net6.0/FluentValidation.dll",
+        "lib/net6.0/FluentValidation.xml",
+        "lib/net7.0/FluentValidation.dll",
+        "lib/net7.0/FluentValidation.xml",
+        "lib/netstandard2.0/FluentValidation.dll",
+        "lib/netstandard2.0/FluentValidation.xml",
+        "lib/netstandard2.1/FluentValidation.dll",
+        "lib/netstandard2.1/FluentValidation.xml"
+      ]
+    },
     "BuberBreakfast.Contracts/1.0.0": {
       "type": "project",
       "path": "../BuberBreakfast.Contracts/BuberBreakfast.Contracts.csproj",
@@ -49,7 +89,8 @@
   "projectFileDependencyGroups": {
     "net6.0": [
       "BuberBreakfast.Contracts >= 1.0.0",
-      "ErrorOr >= 1.2.1"
+      "ErrorOr >= 1.2.1",
+      "FluentValidation >= 11.4.0"
     ]
   },
   "packageFolders": {
@@ -58,11 +99,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Dev\\DotNetCore\\BuberBreakfast\\BuberBreakfast\\BuberBreakfast.csproj",
+      "projectUniqueName": "c:\\Dev\\DotNetCore\\BuberBreakfast\\BuberBreakfast\\BuberBreakfast.csproj",
       "projectName": "BuberBreakfast",
-      "projectPath": "C:\\Dev\\DotNetCore\\BuberBreakfast\\BuberBreakfast\\BuberBreakfast.csproj",
+      "projectPath": "c:\\Dev\\DotNetCore\\BuberBreakfast\\BuberBreakfast\\BuberBreakfast.csproj",
       "packagesPath": "C:\\Users\\jens_\\.nuget\\packages\\",
-      "outputPath": "C:\\Dev\\DotNetCore\\BuberBreakfast\\BuberBreakfast\\obj\\",
+      "outputPath": "c:\\Dev\\DotNetCore\\BuberBreakfast\\BuberBreakfast\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\jens_\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -77,8 +118,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Dev\\DotNetCore\\BuberBreakfast\\BuberBreakfast.Contracts\\BuberBreakfast.Contracts.csproj": {
-              "projectPath": "C:\\Dev\\DotNetCore\\BuberBreakfast\\BuberBreakfast.Contracts\\BuberBreakfast.Contracts.csproj"
+            "c:\\Dev\\DotNetCore\\BuberBreakfast\\BuberBreakfast.Contracts\\BuberBreakfast.Contracts.csproj": {
+              "projectPath": "c:\\Dev\\DotNetCore\\BuberBreakfast\\BuberBreakfast.Contracts\\BuberBreakfast.Contracts.csproj"
             }
           }
         }
@@ -96,6 +137,10 @@
           "ErrorOr": {
             "target": "Package",
             "version": "[1.2.1, )"
+          },
+          "FluentValidation": {
+            "target": "Package",
+            "version": "[11.4.0, )"
           }
         },
         "imports": [
@@ -104,10 +149,29 @@
           "net47",
           "net471",
           "net472",
-          "net48"
+          "net48",
+          "net481"
         ],
         "assetTargetFallback": true,
         "warn": true,
+        "downloadDependencies": [
+          {
+            "name": "Microsoft.AspNetCore.App.Ref",
+            "version": "[6.0.12, 6.0.12]"
+          },
+          {
+            "name": "Microsoft.NETCore.App.Host.win-x64",
+            "version": "[6.0.12, 6.0.12]"
+          },
+          {
+            "name": "Microsoft.NETCore.App.Ref",
+            "version": "[6.0.12, 6.0.12]"
+          },
+          {
+            "name": "Microsoft.WindowsDesktop.App.Ref",
+            "version": "[6.0.12, 6.0.12]"
+          }
+        ],
         "frameworkReferences": {
           "Microsoft.AspNetCore.App": {
             "privateAssets": "none"
@@ -116,7 +180,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
       }
     }
   }

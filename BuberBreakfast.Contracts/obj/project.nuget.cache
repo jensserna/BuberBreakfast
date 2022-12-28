@@ -1,8 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "TFv+zeHQxDBYl2ecdrEKRyyxuFkJ+N2Bpbbb9VL6jPRo55n69lnY4JmyWQdoMjxmk6TArCM2N1mafgU9P5OdJw==",
+  "dgSpecHash": "iEYrRe81WxUEyI6G35PmNBz8QMKXq3fCCSooFiWMMdFlNGpMVa2JROeAIaj849pBJSylKJ1MVWkkKqscMqcPrQ==",
   "success": true,
-  "projectFilePath": "C:\\Dev\\DotNetCore\\BuberBreakfast\\BuberBreakfast.Contracts\\BuberBreakfast.Contracts.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "c:\\Dev\\DotNetCore\\BuberBreakfast\\BuberBreakfast.Contracts\\BuberBreakfast.Contracts.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\jens_\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.12\\microsoft.netcore.app.ref.6.0.12.nupkg.sha512",
+    "C:\\Users\\jens_\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.12\\microsoft.windowsdesktop.app.ref.6.0.12.nupkg.sha512",
+    "C:\\Users\\jens_\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.12\\microsoft.aspnetcore.app.ref.6.0.12.nupkg.sha512"
+  ],
   "logs": []
 }
